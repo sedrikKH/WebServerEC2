@@ -28,6 +28,10 @@ EOF
 resource "aws_security_group" "my_webserver" {
   name        = "WebServer Security Group"
   description = "My First Security Group"
+
+  tags = {
+    Autor = "Sedrik"
+  }
   ingress {
     from_port   = 80
     to_port     = 80
