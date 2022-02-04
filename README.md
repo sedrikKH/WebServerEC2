@@ -1,1 +1,1 @@
-# WebServerEC2
+# WebServer
